@@ -1,0 +1,189 @@
+*{
+	box-sizing: border-box;
+	transition: all 0.5s ease;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+.start{
+	position: relative;
+	background: url('../img/bg.jpg');
+	background-size: cover;
+	padding: 300px;
+	text-align: center;
+	color: rgba(0,0,0,0.8);
+}
+
+.start-menu{
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 55px;
+	width: 55px;
+	background: rgba(0,0,0,0.5);
+	color: #fff;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+.start-menu:hover .menu-dropdown{
+	display: initial;
+}
+
+.menu-dropdown{
+	display: none;
+	position: absolute;
+	top: 56px;
+	right: 0px;
+	background: #fff;
+	text-align: center;
+	width: 160px;
+	color: #000;
+	box-shadow: 1px 2px 2px rgba(0,0,0,0.5);
+}
+
+.menu-dropdown ul{
+	padding: 0;
+	list-style-type: none;
+}
+
+.menu-dropdown li{
+	padding: 5px;
+}
+.menu-dropdown li:hover{
+	transform: scale(1.2);
+}
+
+.start h1{
+	font-size: 5em;
+	margin-bottom: 0;
+}
+.start h5{
+	margin: 30px;
+	font-size: 1.8em;
+	font-weight: normal;
+}
+.start .button-head, .button-footer{
+	display: inline-block;
+	padding: 15px;
+	background: rgba(0,0,0,0.5);
+	height: 55px;
+	width: 175px;
+	color: #fff;
+	font-size: 1.2em;
+	cursor: pointer;
+}
+.start .button-head:hover,
+
+.start .button-head:focus,
+
+.start .button-head:active,
+
+.button-footer:hover,
+
+.button-footer:focus,
+
+.button-footer:active{
+	background: #000;
+	color: #fff;
+}
+
+.block-1{
+	text-align: center;
+	padding: 45px;
+}
+
+.block-1 h2, .block-4 h1{
+	font-weight: normal;
+	font-size: 2em;
+	color: rgba(0,0,0,0.8);
+	margin-bottom: 0;
+}
+
+.block-1 p{
+	font-size: 1.5em;
+	opacity: 0.7;
+	margin-top: 15px;
+}
+
+.block-1 a{
+	text-decoration: none;
+	color: #2850ff;
+}
+.block-2{
+	color: #fff;
+	background: rgb(51,122,183);
+	text-align: center;
+	padding: 45px;
+}
+.preview{
+	padding: 5px 60px 45px 60px;
+	display: inline-block;
+	width: 100%;
+}
+.icon{
+	display: inline-block;
+	width: 105px;
+	height: 105px;
+	border-radius: 100%;
+	background: #fff;
+	padding: 15px;
+}
+.icon img{
+	display: inline-block;
+	padding: 10px;
+	width: 75px;
+}
+.block2__preview{
+	padding: 15px;
+	text-align: center;
+	width: 20%;
+	display: inline-block;
+}
+.block-2 .button{
+	display: inline-block;
+	background: #fff;
+	color: #000;
+	width: 110px;
+	height: 45px;
+	text-align: center;
+	padding: 10px;
+	cursor: pointer;
+}
+.block-2 .button:hover{
+	background: #000;
+	color: #fff;
+}
+
+.block-3{
+	font-size: 2em;
+	background: url('../img/callout.jpg') 50% 55% no-repeat;
+	background-size: 100%;
+	color: #fff;
+	padding: 150px;
+	text-align: center;
+	vertical-align: middle;
+}
+.block-3 h1{
+	display: inline-block;
+}
+
+.block-4{
+	text-align: center;
+	margin-bottom: 60px;
+}
+.photos{
+	width: 70%;
+	margin: 0 auto;
+}
+.block-4 h1{
+	margin: 60px 0 30px 0;
+	font-size: 2em;
+}
+.photos img{
+	width: 49%;
+	padding: 15px;
+}
